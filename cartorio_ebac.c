@@ -123,7 +123,6 @@ int main()
 	char senhadigitada[]="a";
 	int comparacao;
 	
-	
 	printf("### Cartório da EBAC ###\n\n");
 	printf("Login de adminstrador!\n\nDigite a sua senha: ");
 	scanf("%s",senhadigitada);
@@ -132,10 +131,8 @@ int main()
 	
 	if(comparacao==0)
 	{
-	
 		for(laco=1;laco=1;)
 		{
-	
 			system("cls");
 			setlocale(LC_ALL, "portuguese"); //Definindo a linguagem
 	
@@ -175,16 +172,10 @@ int main()
 				system("pause");
 				break;	
 			}// fim da seleção
-	
-	
 		}
-
-
-	}
-	
+	}	
 	else
 	printf("\n\n ACESSO NEGADO!");	
-
 }
 
 
